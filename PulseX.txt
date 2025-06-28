@@ -20,6 +20,7 @@ Required Features:
 	Real-time Audio Processing ............... for embedded systems, Raspberry Pi
 	User Interface ........................... basic UI for audio capture and result display
 	Edge Deployment Ready .................... optimized for portable and IoT devices
+	ECG data due AD8232 Module ............... get ecg data from user heart using the module ad8232
 
 -----------------------------------------------------------------------------------------------------
 
@@ -36,10 +37,10 @@ Pipeline:
 -----------------------------------------------------------------------------------------------------
 
 Ideas:
-	Notify user with LEDs and buzzer when heartbeat diagnostic process finishes ........ (done)
-	Blue = healthy, red = abnormal, yellow = system failure, Green = start recording ... (done)
-	Save recordings and metadata to CSV if user confirms ............................... (done)
-	Use Knowles FG-23329-P142 instead of KY 037 ........................................
+	Notify user with LEDs and buzzer when heartbeat diagnostic process finishes ........... (done)
+	White: System On Blue: Normal, Red: Abnormal, Yellow: Error, Green: start recording ... (done)
+	Save recordings and metadata to CSV if user confirms .................................. (done)
+	Use Knowles FG-23329-P142 instead of KY 037 ...........................................
 
 -----------------------------------------------------------------------------------------------------
 
@@ -48,13 +49,15 @@ Hard ware :
 	_Box / Supports		(owned) 10dh   - 
 	_KY-037 Microphone	(owned) 25dh   - https://www.micro-planet.ma/produit/module-capteur-magnetique-a-effet-hall-ky-024/
 	_PCF8591 Converter	(owned) 60dh   - https://www.micro-planet.ma/produit/pcf8591-convertisseur-analogique-numerique-dac-adc/
+	_AD8232 ECG Module      (owned) 120dh  - https://www.micro-planet.ma/produit/ad8232-ecg-module-capteur-de-rythme-cardiaque/
 	_Raspberry pi 4         (owned) 1000dh - https://www.micro-planet.ma/produit/raspberry-pi-4-modele-b-2gb-4gb/
 	_Breadboard		(owned) 35dh   - https://www.micro-planet.ma/produit/breadboard-830-points/
-	_LEDs                   (owned) 4dh    - https://www.micro-planet.ma/produit/led-5mm/
+	_LEDs                   (owned) 5dh    - https://www.micro-planet.ma/produit/led-5mm/
 	_Resistances            (owned) 3dh    - https://www.micro-planet.ma/produit/resistances-14w-50-valeurs-precision-1-1-packet-5-unites/
 	_Buzzer                 (owned) 2dh    - https://www.micro-planet.ma/produit/buzzer-actif/
-	_Button			(owned) 2dh    - https://www.micro-planet.ma/produit/bouton-poussoir-12x12x7-3mm/
-	_Jumper Wires		(owned) 6dh    - https://www.micro-planet.ma/produit/cable-dupont-malefemelle-20cm-x-40/
+	_Button x 2		(owned) 4dh    - https://www.micro-planet.ma/produit/bouton-poussoir-12x12x7-3mm/
+	_Button Cover x 2	(owned) 2dh    - https://www.micro-planet.ma/produit/caps-pour-bouton-poussoir-12x12x7-3mm/
+	_Jumper Wires		(owned) 12dh   - https://www.micro-planet.ma/produit/cable-dupont-malefemelle-20cm-x-40/
 
 -----------------------------------------------------------------------------------------------------
 
@@ -78,11 +81,11 @@ Interface:
 
 Workflow:
 	1.Activation:
-		The user presses the button on the device.
+		The user presses the stethoscope system button or ecg system button on the device.
 		The green LED turns on indicating that heartbeat recording has started.
 	
 	2.Recording Phase:
-		The system records heart sounds via the stethoscope microphone for 20 seconds.
+		Stethoscope system records heart sounds via microphone for 20 seconds and ecg system for 60 seconds.
 		After recording, the green LED turns off.
 	
 	3.Error Handling:
