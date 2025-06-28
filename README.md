@@ -38,18 +38,18 @@ PulseX runs on a portable **Raspberry Pi 4** connected to a **stethoscope**, wit
 | Component              | Price   |
 | ---------------------- | ------- |
 | Box/Supports           | 10 DH   | [N/A](#) |
-| Stethoscope            | 400 DH  | [link](https://locamed.ma/product/stethoscope-duplex/ |
-| KY-037 Microphone      | 25 DH   | [link](https://www.micro-planet.ma/produit/module-capteur-magnetique-a-effet-hall-ky-024/ |
-| PCF8591 ADC Converter  | 60 DH   | [link](https://www.micro-planet.ma/produit/pcf8591-convertisseur-analogique-numerique-dac-adc/ |
-| AD8232 ECG Module      | 120 DH  | [link](https://www.micro-planet.ma/produit/ad8232-ecg-module-capteur-de-rythme-cardiaque/ |
-| Raspberry Pi 4 Model B | 1000 DH | [link](https://www.micro-planet.ma/produit/raspberry-pi-4-modele-b-2gb-4gb/ |
-| Breadboard             | 35 DH   | [link](https://www.micro-planet.ma/produit/breadboard-830-points/ |
-| LEDs                   | 5 DH    | [link](https://www.micro-planet.ma/produit/led-5mm/ |
-| Resistors              | 3 DH    | [link](https://www.micro-planet.ma/produitresistances-14w-50-valeurs-precision-1-1-packet-5-unites/ |
-| Buzzer                 | 2 DH    | [link](https://www.micro-planet.ma/produit/buzzer-actif/ |
-| Button x 2             | 4 DH    | [link](https://www.micro-planet.ma/produit/bouton-poussoir-12x12x7-3mm/ |
-| Button Cover x 2       | 2 DH    | [link](https://www.micro-planet.ma/produit/caps-pour-bouton-poussoir-12x12x7-3mm/ |
-| Jumper Wires           | 12 DH   | [link](https://www.micro-planet.ma/produit/cable-dupont-malefemelle-20cm-x-40/ |
+| Stethoscope            | 400 DH  | [link](https://locamed.ma/product/stethoscope-duplex/) |
+| KY-037 Microphone      | 25 DH   | [link](https://www.micro-planet.ma/produit/module-capteur-magnetique-a-effet-hall-ky-024/) |
+| PCF8591 ADC Converter  | 60 DH   | [link](https://www.micro-planet.ma/produit/pcf8591-convertisseur-analogique-numerique-dac-adc/) |
+| AD8232 ECG Module      | 120 DH  | [link](https://www.micro-planet.ma/produit/ad8232-ecg-module-capteur-de-rythme-cardiaque/) |
+| Raspberry Pi 4 Model B | 1000 DH | [link](https://www.micro-planet.ma/produit/raspberry-pi-4-modele-b-2gb-4gb/) |
+| Breadboard             | 35 DH   | [link](https://www.micro-planet.ma/produit/breadboard-830-points/) |
+| LEDs                   | 5 DH    | [link](https://www.micro-planet.ma/produit/led-5mm/) |
+| Resistors              | 3 DH    | [link](https://www.micro-planet.ma/produitresistances-14w-50-valeurs-precision-1-1-packet-5-unites/) |
+| Buzzer                 | 2 DH    | [link](https://www.micro-planet.ma/produit/buzzer-actif/) |
+| Button x 2             | 4 DH    | [link](https://www.micro-planet.ma/produit/bouton-poussoir-12x12x7-3mm/) |
+| Button Cover x 2       | 2 DH    | [link](https://www.micro-planet.ma/produit/caps-pour-bouton-poussoir-12x12x7-3mm/) |
+| Jumper Wires           | 12 DH   | [link](https://www.micro-planet.ma/produit/cable-dupont-malefemelle-20cm-x-40/) |
 
 **Total Core Cost**: ~1678 DH 💰 (affordable and portable!)
 
