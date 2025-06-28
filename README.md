@@ -23,13 +23,13 @@ PulseX runs on a portable **Raspberry Pi 4** connected to a **stethoscope**, wit
 - 🔍 **Normal vs Abnormal Detection** (binary)
 - 🏷️ **Multi-label Classification** (multiple cardiovascular anomalies)
 - 🧑 **Demographic Integration** (age, gender, region, smoker)
-- 🔊 **Noise Reduction** — cleans heart/lung sounds
-- ⚡ **Real-time Audio Processing** on Raspberry Pi
-- 🌐 **Web Interface (PulseTrack)** for live visualization & interaction
+- 🔊 **Noise Reduction** (cleans heart/lung sounds)
+- ⚡ **Real-time Audio Processing** (on Raspberry Pi)
+- 🌐 **Web Interface (PulseTrack)** (for live visualization & interaction)
 - 🔔 **Visual & Audio Alerts** (LEDs & buzzer)
-- 📊 **Recording History & Metadata Storage**
+- 📊 **Recording History & Metadata Storage** (after user gives permission)
 - 🚀 **Edge Deployment Ready** (offline, IoT-friendly)
-- 📈 **ECG data due AD8232 Module** (get ecg data from user heart using the module ad8232)
+- 📈 **ECG recording with AD8232 Module** (captures ECG data directly from the heart)
 
 ---
 
