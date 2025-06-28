@@ -1,0 +1,4 @@
+Smoker: 1     NotSmoker: 0
+Male: 1       Female: 0
+Urban: 1      Rural: 0
+Unhealthy: 1  Healthy: 0

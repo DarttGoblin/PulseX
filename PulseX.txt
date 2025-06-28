@@ -1,0 +1,141 @@
+-----------------------------------------------------------------------------------------------------
+
+Project: PulseX
+Description:
+	PulseX is an innovative project designed to enhance healthcare and 
+	telemedicine through intelligent analysis of heartbeat sounds. It 
+	combines deep learning-based audio classification with patient 
+	demographic data to detect abnormal heart sounds. By leveraging 
+	modern AI models and embedded systems, PulseX provides a portable, 
+	affordable tool for early cardiovascular screening and remote 
+	monitoring, supporting improved access to healthcare services.
+	
+-----------------------------------------------------------------------------------------------------
+
+Required Features:
+	Health Prediction ........................ AI-based heartbeat classification
+	Demographic Integration .................. age, gender, region, smoking status
+	Abnormality Detection .................... normal vs. abnormal heart sound detection
+	Multi-label Classification Support ....... detection of multiple cardiovascular anomalies, multi-label mode
+	Real-time Audio Processing ............... for embedded systems, Raspberry Pi
+	User Interface ........................... basic UI for audio capture and result display
+	Edge Deployment Ready .................... optimized for portable and IoT devices
+
+-----------------------------------------------------------------------------------------------------
+
+Pipeline:
+	Data Collection (done)
+	Data Cleaning (done)
+	Data Augmentation (done)
+	Model Training (dnoe)
+	Testing and Validation (done)
+	Hardware Integration (done)
+	Web App Development (done)
+	Web App Deployment (done)
+
+-----------------------------------------------------------------------------------------------------
+
+Ideas:
+	Notify user with LEDs and buzzer when heartbeat diagnostic process finishes ........ (done)
+	Blue = healthy, red = abnormal, yellow = system failure, Green = start recording ... (done)
+	Save recordings and metadata to CSV if user confirms ............................... (done)
+	Use Knowles FG-23329-P142 instead of KY 037 ........................................
+
+-----------------------------------------------------------------------------------------------------
+
+Hard ware : 
+	_Stethoscope            (owned) 400dh  - https://locamed.ma/product/stethoscope-duplex/
+	_Box / Supports		(owned) 10dh   - 
+	_KY-037 Microphone	(owned) 25dh   - https://www.micro-planet.ma/produit/module-capteur-magnetique-a-effet-hall-ky-024/
+	_PCF8591 Converter	(owned) 60dh   - https://www.micro-planet.ma/produit/pcf8591-convertisseur-analogique-numerique-dac-adc/
+	_Raspberry pi 4         (owned) 1000dh - https://www.micro-planet.ma/produit/raspberry-pi-4-modele-b-2gb-4gb/
+	_Breadboard		(owned) 35dh   - https://www.micro-planet.ma/produit/breadboard-830-points/
+	_LEDs                   (owned) 4dh    - https://www.micro-planet.ma/produit/led-5mm/
+	_Resistances            (owned) 3dh    - https://www.micro-planet.ma/produit/resistances-14w-50-valeurs-precision-1-1-packet-5-unites/
+	_Buzzer                 (owned) 2dh    - https://www.micro-planet.ma/produit/buzzer-actif/
+	_Button			(owned) 2dh    - https://www.micro-planet.ma/produit/bouton-poussoir-12x12x7-3mm/
+	_Jumper Wires		(owned) 6dh    - https://www.micro-planet.ma/produit/cable-dupont-malefemelle-20cm-x-40/
+
+-----------------------------------------------------------------------------------------------------
+
+Interface:
+	Name: PulseTrack
+	Structure: Inspired by NeuroLink interface clone
+	Type: Web Application
+	Technologies: HTML, CSS, Javascript, Node.js
+	Requirements:
+		Real-Time heartbeat analysis and results display
+		Alerts and notifications for abnormal findings
+		User education through LearnHub (cardiovascular health)
+		Personalized Health Monitoring:
+			Heartbeat sound analysis
+			Heart rate estimation
+			Demographic-based risk indicators (age, gender, smoker, region)
+		Multi-recording support (majority voting)
+		Recording history log with saved audio and metadata
+
+-----------------------------------------------------------------------------------------------------
+
+Workflow:
+	1.Activation:
+		The user presses the button on the device.
+		The green LED turns on indicating that heartbeat recording has started.
+	
+	2.Recording Phase:
+		The system records heart sounds via the stethoscope microphone for 20 seconds.
+		After recording, the green LED turns off.
+	
+	3.Error Handling:
+		If a recording or processing error occurs, the yellow LED turns on.
+	
+	4.Classification:
+		The recorded audio along with user metadata (age, gender, region, smoking state) is passed to a deep learning model.
+		The model classifies the audio as either Normal or Abnormal.
+	
+	5.Feedback:
+		If the heartbeat is normal, the blue LED turns on.
+		If the heartbeat is abnormal, the red LED and the buzzer are triggered to alert the user.
+
+-----------------------------------------------------------------------------------------------------
+
+Sources: 	 
+	https://www.youtube.com/watch?v=Vv9Ouf_QH5s
+
+-----------------------------------------------------------------------------------------------------
+
+References:
+	https://www.kaggle.com/ : lungs and heart datasets
+	https://pmc.ncbi.nlm.nih.gov/articles/PMC10177339/ : stethoscope types
+	https://en.wikipedia.org/wiki/Computer-aided_auscultation : CAA
+	https://www.youtube.com/watch?v=W_3ljVlt7Sk : heart rate sensor tutorial
+	https://www.youtube.com/watch?v=0yO3gqeoMJg
+
+-----------------------------------------------------------------------------------------------------
+
+Articles:	
+	https://www.sciencedirect.com/science/article/pii/S2666827021001031
+	https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1434022/full
+	https://www.researchgate.net/publication/335480751_Heart_sound_classification_using_machine_learning_and_phonocardiogram
+	https://spj.science.org/doi/10.34133/hds.0182
+	https://www.sciencedirect.com/science/article/pii/S1877050924009724
+	https://www.medrxiv.org/content/10.1101/2023.09.16.23295653v1.full
+	https://ieeexplore.ieee.org/document/10193726
+	https://www.mdpi.com/1099-4300/23/6/667
+	https://www.mdpi.com/1424-8220/19/21/4819
+	https://link.springer.com/article/10.1007/s00034-022-02124-1
+	https://www.sciencedirect.com/science/article/pii/S2666827021001031
+	http://ieeexplore.ieee.org/abstract/document/10049623/
+	https://www.mdpi.com/2076-3417/10/11/3956
+	https://www.mdpi.com/2076-3417/8/12/2344
+	https://www.mdpi.com/1424-8220/19/21/4819
+	https://arxiv.org/abs/2305.16691
+
+-----------------------------------------------------------------------------------------------------
+
+Qestions: None
+
+-----------------------------------------------------------------------------------------------------
+
+Notes: None
+
+-----------------------------------------------------------------------------------------------------

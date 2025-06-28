@@ -1,0 +1,10 @@
+Dataset1: heart data in audio, two folders, 1 contains 84 audio, 2 contains 461
+Dataset2: lungs data in audio, one folder, 336 audio
+Dataset3: heart data in text, 35 row, 25 column
+Dataset5: heart data in text, 1000 row, 14 column
+Dataset6: heart data in audio, one folder, 872 audio (test volume boosting)
+Dataset7: heart data and lungs data, three folders, 
+	1 contains 52 heart audio, 
+	2 contains 52 lungs audio,
+	3 contains 112 heart and lungs audio
+Dataset8: lungs data in audio, one folders, 920 audio

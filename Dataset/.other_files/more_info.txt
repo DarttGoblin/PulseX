@@ -1,0 +1,6 @@
+Aortic Stenosis (AS): Narrowing of the aortic valve, restricting blood flow from the heart to the body.
+Aortic Regurgitation (AR): The aortic valve does not close properly, causing blood to leak back into the heart.
+Mitral Regurgitation (MR): The mitral valve does not close completely, allowing blood to flow backward into the left atrium.
+Mitral Stenosis (MS): Narrowing of the mitral valve, restricting blood flow into the left ventricle.
+Multi-Disease (MD): Indicates whether a patient has multiple heart diseases.
+Normal (N): Indicates whether a patient is healthy.

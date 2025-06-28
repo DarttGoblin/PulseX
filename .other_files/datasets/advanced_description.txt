@@ -1,0 +1,23 @@
+Dataset6: heart data in audio, one folder, 872 original audio
+	Advanced Description:
+		aortic_regurgitation:  112 audio, 19.98s  audios lengths avg
+		aortic_stenosis:       128 audio, 20s     audios lengths avg
+		mitral_regurgitation:  176 audio, 20s     audios lengths avg
+		mitral_stenosis:       176 audio, 19.99s  audios lengths avg
+		multi_disease:         816 audio, 20s     audios lengths avg
+		normal:               1400 audio, 19.2    audios lengths avg
+
+	Conclusion: QUALIFIED, audio lengths are balanced with 20s as average!
+
+Dataset1: heart data in audio, two folders, 1 contains 84 audio, 2 contains 461
+	Advanced Description:
+		Folder 1:
+			murmur      34 audio
+			normal      31 audio
+			extrahls    19 audio
+		Folder 2:
+			normal        320 audio
+			murmur         95 audio  
+			extrastole     46 audio  
+
+	Conclusion: NOT QUALIFIED as supportive dataset, average 8s << 25s

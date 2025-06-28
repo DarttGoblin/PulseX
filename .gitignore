@@ -1,0 +1,12 @@
+# Ignore data folders and models files
+
+.other_files/datasets/raw_data/
+.other_files/.other_files/
+
+Dataset/binary_classification_model_data/
+Dataset/multi_classification_model_data/
+
+efficientnetb3_model/efficientnetb3_binary_classification_audio_model/efficientnetb3_binary_hs_classifier.pth
+efficientnetb3_model/efficientnetb3_multi_classification_audio_model/efficientnetb3_multi_hs_classifier.pth
+resnet18_model/resnet18_binary_classification_audio_model/resnet18_binary_hs_classifier.pth
+resnet18_model/resnet18_multi_classification_audio_model/resnet18_multi_hs_classifier.pth
