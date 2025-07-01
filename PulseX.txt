@@ -45,8 +45,8 @@ Ideas:
 -----------------------------------------------------------------------------------------------------
 
 Hard ware : 
-	_Stethoscope            (owned) 400dh  - https://locamed.ma/product/stethoscope-duplex/
 	_Box / Supports		(owned) 10dh   - 
+	_Stethoscope            (owned) 400dh  - https://locamed.ma/product/stethoscope-duplex/
 	_KY-037 Microphone	(owned) 25dh   - https://www.micro-planet.ma/produit/module-capteur-magnetique-a-effet-hall-ky-024/
 	_PCF8591 Converter	(owned) 60dh   - https://www.micro-planet.ma/produit/pcf8591-convertisseur-analogique-numerique-dac-adc/
 	_AD8232 ECG Module      (owned) 120dh  - https://www.micro-planet.ma/produit/ad8232-ecg-module-capteur-de-rythme-cardiaque/
