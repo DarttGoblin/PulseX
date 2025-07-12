@@ -2,25 +2,31 @@
 
 Project: PulseX
 Description:
-	PulseX is an innovative project designed to enhance healthcare and 
-	telemedicine through intelligent analysis of heartbeat sounds. It 
-	combines deep learning-based audio classification with patient 
-	demographic data to detect abnormal heart sounds. By leveraging 
-	modern AI models and embedded systems, PulseX provides a portable, 
-	affordable tool for early cardiovascular screening and remote 
-	monitoring, supporting improved access to healthcare services.
+	Each year, over 7 million people die from heart diseases, many due to delayed or inaccessible 
+	early diagnostics. Addressing this, PulseX offers an innovative telemedicine solution for early cardiac 
+	anomaly detection. The PulseX system integrates stethoscope and ECG monitoring into a portable architecture, 
+	enabling real-time assessment in low-resource. Our methodology centers on a curated dataset of over 
+	800 annotated heart sound recordings, enriched with patient demographics (age, gender, region, smoking 
+	status). We trained deep learning models for binary heartbeat classification and multi-label detection 
+	of heart disease patterns. A Raspberry Pi serves as the core processing unit, interfacing with a 
+	traditional stethoscope, ECG module. The user interface, PulseTrack, securely captures health records, 
+	collects user data, and visualizes diagnostic outcomes. In the results, PulseX achieved 92% accuracy in 
+	distinguishing abnormal heart sounds, highlighting its potential to assist non-specialist health workers 
+	in early screening. By combining clinical data, accessible hardware, and robust algorithms, PulseX aims 
+	to democratize cardiovascular diagnostics, reduce preventable deaths, and pave the way for scalable 
+	AI-driven telehealth in Morocco and beyond.
 	
 -----------------------------------------------------------------------------------------------------
 
 Required Features:
-	Health Prediction ........................ AI-based heartbeat classification
-	Demographic Integration .................. age, gender, region, smoking status
-	Abnormality Detection .................... normal vs. abnormal heart sound detection
-	Multi-label Classification Support ....... detection of multiple cardiovascular anomalies, multi-label mode
-	Real-time Audio Processing ............... for embedded systems, Raspberry Pi
-	User Interface ........................... basic UI for audio capture and result display
-	Edge Deployment Ready .................... optimized for portable and IoT devices
-	ECG data due AD8232 Module ............... get ecg data from user heart using the module ad8232
+	Health Prediction .................. AI-based heartbeat classification
+	Demographic Integration ............ age, gender, region, smoking status
+	Abnormality Detection .............. normal vs. abnormal heart sound detection
+	Multi-label Classification Support . detection of multiple cardiovascular anomalies, multi-label mode
+	Real-time Audio Processing ......... for embedded systems, Raspberry Pi
+	User Interface ..................... basic UI for audio capture and result display
+	Edge Deployment Ready .............. optimized for portable and IoT devices
+	ECG data due AD8232 Module ......... get ecg data from user heart using the module ad8232
 
 -----------------------------------------------------------------------------------------------------
 
